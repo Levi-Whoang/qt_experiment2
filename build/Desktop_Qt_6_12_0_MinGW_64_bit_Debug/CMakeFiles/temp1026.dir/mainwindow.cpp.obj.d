@@ -520,4 +520,13 @@ CMakeFiles/temp1026.dir/mainwindow.cpp.obj: \
  D:/QT/6.12.0/mingw_64/include/QtGui/QTextBlock \
  D:/QT/6.12.0/mingw_64/include/QtGui/qtextobject.h \
  D:/QT/6.12.0/mingw_64/include/QtGui/QKeySequence \
- D:/QT/6.12.0/mingw_64/include/QtWidgets/QApplication
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/QApplication \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/QDialog \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/QLabel \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/qlabel.h \
+ D:/QT/6.12.0/mingw_64/include/QtGui/qpicture.h \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/QLineEdit \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/QPushButton \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/qpushbutton.h \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/QGridLayout

@@ -22,12 +22,28 @@
 #include <QTextBlock>
 #include <QKeySequence>
 #include <QApplication>
+#include <QDialog>
+#include <QLabel>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QGridLayout>
+#include <QMessageBox>
+#include <QTextCursor>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    // 设置编辑区域为白底黑字
+    ui->plainTextEdit->setStyleSheet(
+        "QPlainTextEdit {"
+        "background-color: white;"
+        "color: black;"
+        "}"
+        );
 
     // 默认显示行号、工具栏和状态栏
     ui->actionLineNumber->setChecked(true);
@@ -305,50 +321,74 @@ void MainWindow::findText()
 
 void MainWindow::replaceText()
 {
-    bool ok = false;
+    // 创建替换对话框
+    QDialog dialog(this);
+    dialog.setWindowTitle("查找和替换");
+    dialog.resize(350, 150);
 
-    QString target = QInputDialog::getText(
-        this, tr("替换"),
-        tr("请输入要查找的内容："),
-        QLineEdit::Normal, QString(), &ok
-        );
+    // 创建控件
+    QLabel *findLabel = new QLabel("查找：", &dialog);
+    QLineEdit *findEdit = new QLineEdit(&dialog);
 
-    if (!ok || target.isEmpty()) {
-        return;
-    }
+    QLabel *replaceLabel = new QLabel("替换为：", &dialog);
+    QLineEdit *replaceEdit = new QLineEdit(&dialog);
 
-    QString replacement = QInputDialog::getText(
-        this, tr("替换"),
-        tr("请输入替换后的内容："),
-        QLineEdit::Normal, QString(), &ok
-        );
+    QPushButton *replaceButton = new QPushButton("替换", &dialog);
+    QPushButton *replaceAllButton = new QPushButton("全部替换", &dialog);
+    QPushButton *cancelButton = new QPushButton("取消", &dialog);
 
-    if (!ok) {
-        return;
-    }
+    // 创建布局
+    QGridLayout *grid = new QGridLayout(&dialog);
+    grid->addWidget(findLabel, 0, 0);
+    grid->addWidget(findEdit, 0, 1, 1, 2);
 
-    QTextCursor cursor = ui->plainTextEdit->textCursor();
+    grid->addWidget(replaceLabel, 1, 0);
+    grid->addWidget(replaceEdit, 1, 1, 1, 2);
 
-    if (cursor.hasSelection() && cursor.selectedText() == target) {
-        cursor.insertText(replacement);
-    } else if (!ui->plainTextEdit->find(target)) {
-        cursor.movePosition(QTextCursor::Start);
+    grid->addWidget(replaceButton, 2, 0);
+    grid->addWidget(replaceAllButton, 2, 1);
+    grid->addWidget(cancelButton, 2, 2);
 
-        ui->plainTextEdit->setTextCursor(cursor);
+    // 替换下一个匹配项
+    connect(replaceButton, &QPushButton::clicked, &dialog, [this, findEdit, replaceEdit]() {
+        QString findText = findEdit->text();
 
-        if (!ui->plainTextEdit->find(target)) {
-            QMessageBox::information(
-                this, tr("替换"), tr("没有找到匹配内容。")
-                );
+        if (findText.isEmpty()) {
+            QMessageBox::warning(this, "提示", "请输入要查找的内容！");
             return;
         }
 
-        cursor = ui->plainTextEdit->textCursor();
-        cursor.insertText(replacement);
-    } else {
-        cursor = ui->plainTextEdit->textCursor();
-        cursor.insertText(replacement);
-    }
+        QTextCursor cursor = ui->plainTextEdit->textCursor();
+
+        // 如果当前选中内容就是查找内容，先替换当前选中项
+        if (cursor.hasSelection() && cursor.selectedText() == findText) {
+            cursor.insertText(replaceEdit->text());
+        } else if (!ui->plainTextEdit->find(findText)) {
+            QMessageBox::information(this, "提示", "没有找到匹配内容！");
+        } else {
+            cursor = ui->plainTextEdit->textCursor();
+            cursor.insertText(replaceEdit->text());
+        }
+    });
+
+    // 替换全部匹配项
+    connect(replaceAllButton, &QPushButton::clicked, &dialog, [this, findEdit, replaceEdit]() {
+        QString findText = findEdit->text();
+
+        if (findText.isEmpty()) {
+            QMessageBox::warning(this, "提示", "请输入要查找的内容！");
+            return;
+        }
+
+        QString content = ui->plainTextEdit->toPlainText();
+        content.replace(findText, replaceEdit->text(), Qt::CaseSensitive);
+        ui->plainTextEdit->setPlainText(content);
+    });
+
+    // 关闭窗口
+    connect(cancelButton, &QPushButton::clicked, &dialog, &QDialog::reject);
+
+    dialog.exec();
 }
 
 void MainWindow::chooseFont()
