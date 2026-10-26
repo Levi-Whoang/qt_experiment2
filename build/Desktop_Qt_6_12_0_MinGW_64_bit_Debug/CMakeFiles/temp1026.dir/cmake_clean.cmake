@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/temp1026.dir/codeeditor.cpp.obj"
+  "CMakeFiles/temp1026.dir/codeeditor.cpp.obj.d"
   "CMakeFiles/temp1026.dir/main.cpp.obj"
   "CMakeFiles/temp1026.dir/main.cpp.obj.d"
   "CMakeFiles/temp1026.dir/mainwindow.cpp.obj"

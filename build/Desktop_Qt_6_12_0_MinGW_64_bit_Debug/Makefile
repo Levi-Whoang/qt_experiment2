@@ -199,6 +199,30 @@ temp1026_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026_autogen.dir\build.make CMakeFiles/temp1026_autogen.dir/build
 .PHONY : temp1026_autogen/fast
 
+codeeditor.obj: codeeditor.cpp.obj
+.PHONY : codeeditor.obj
+
+# target to build an object file
+codeeditor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026.dir\build.make CMakeFiles/temp1026.dir/codeeditor.cpp.obj
+.PHONY : codeeditor.cpp.obj
+
+codeeditor.i: codeeditor.cpp.i
+.PHONY : codeeditor.i
+
+# target to preprocess a source file
+codeeditor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026.dir\build.make CMakeFiles/temp1026.dir/codeeditor.cpp.i
+.PHONY : codeeditor.cpp.i
+
+codeeditor.s: codeeditor.cpp.s
+.PHONY : codeeditor.s
+
+# target to generate assembly for a file
+codeeditor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026.dir\build.make CMakeFiles/temp1026.dir/codeeditor.cpp.s
+.PHONY : codeeditor.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -286,6 +310,9 @@ help:
 	@echo ... temp1026_autogen
 	@echo ... temp1026_autogen_timestamp_deps
 	@echo ... temp1026
+	@echo ... codeeditor.obj
+	@echo ... codeeditor.i
+	@echo ... codeeditor.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

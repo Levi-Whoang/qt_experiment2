@@ -3,19 +3,14 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QColor>
 #include <QString>
-#include <QTextCursor>
-#include <QTextCharFormat>
-#include <QResizeEvent>
+#include <QColor>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
 QT_END_NAMESPACE
-
-class LineNumberArea;
 
 class MainWindow : public QMainWindow
 {
@@ -25,14 +20,9 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-protected:
-    void resizeEvent(QResizeEvent *event) override;
-
 private:
     Ui::MainWindow *ui;
-
     QString currentFile;
-    LineNumberArea *lineNumberArea = nullptr;
     QColor editorBackgroundColor = Qt::white;
 
     // 文件操作
@@ -44,10 +34,9 @@ private:
     bool maybeSave();
     void updateWindowTitle();
 
-    // 编辑操作
+    // 查找与替换
     void findText();
     void replaceText();
-    void replaceAllText();
 
     // 格式设置
     void chooseFont();
@@ -56,15 +45,11 @@ private:
     void chooseEditorBackgroundColor();
     void setWordWrap(bool enabled);
 
-    // 行号
-    void updateLineNumberAreaWidth();
-    void updateLineNumberAreaPaint(const QRect &rect);
-    void paintLineNumberArea(QPaintEvent *event);
-
-    // 其他
+    // 其他功能
     void showAbout();
     void updateStatusBar();
-    void setupIcons();
+    void setupConnections();
+    void setupShortcuts();
 };
 
 #endif // MAINWINDOW_H
