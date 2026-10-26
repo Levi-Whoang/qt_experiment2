@@ -98,6 +98,10 @@
    </attribute>
   </widget>
   <action name="actionNew">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 230853.png</normaloff>image/屏幕截图 2026-10-26 230853.png</iconset>
+   </property>
    <property name="text">
     <string>新建&amp;N</string>
    </property>
@@ -112,6 +116,10 @@
    </property>
   </action>
   <action name="actionOpen">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231017.png</normaloff>image/屏幕截图 2026-10-26 231017.png</iconset>
+   </property>
    <property name="text">
     <string>打开&amp;O</string>
    </property>
@@ -126,6 +134,10 @@
    </property>
   </action>
   <action name="actionFontColor">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231112.png</normaloff>image/屏幕截图 2026-10-26 231112.png</iconset>
+   </property>
    <property name="text">
     <string>字体颜色&amp;C</string>
    </property>
@@ -137,6 +149,10 @@
    </property>
   </action>
   <action name="actionSave">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231024.png</normaloff>image/屏幕截图 2026-10-26 231024.png</iconset>
+   </property>
    <property name="text">
     <string>保存&amp;S</string>
    </property>
@@ -151,6 +167,10 @@
    </property>
   </action>
   <action name="actionSaveAs">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231030.png</normaloff>image/屏幕截图 2026-10-26 231030.png</iconset>
+   </property>
    <property name="text">
     <string>另存为&amp;A</string>
    </property>
@@ -182,6 +202,10 @@
    </property>
   </action>
   <action name="actionQuit">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231938.png</normaloff>image/屏幕截图 2026-10-26 231938.png</iconset>
+   </property>
    <property name="text">
     <string>退出&amp;X</string>
    </property>
@@ -196,6 +220,10 @@
    </property>
   </action>
   <action name="actionFind">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231058.png</normaloff>image/屏幕截图 2026-10-26 231058.png</iconset>
+   </property>
    <property name="text">
     <string>查找&amp;F</string>
    </property>
@@ -210,6 +238,10 @@
    </property>
   </action>
   <action name="actionUndo">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231035.png</normaloff>image/屏幕截图 2026-10-26 231035.png</iconset>
+   </property>
    <property name="text">
     <string>撤销&amp;Z</string>
    </property>
@@ -224,6 +256,10 @@
    </property>
   </action>
   <action name="actionRedo">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231039.png</normaloff>image/屏幕截图 2026-10-26 231039.png</iconset>
+   </property>
    <property name="text">
     <string>恢复&amp;Y</string>
    </property>
@@ -238,6 +274,10 @@
    </property>
   </action>
   <action name="actionReplace">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231102.png</normaloff>image/屏幕截图 2026-10-26 231102.png</iconset>
+   </property>
    <property name="text">
     <string>替换&amp;R</string>
    </property>
@@ -252,6 +292,10 @@
    </property>
   </action>
   <action name="actionCut">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231044.png</normaloff>image/屏幕截图 2026-10-26 231044.png</iconset>
+   </property>
    <property name="text">
     <string>剪切&amp;T</string>
    </property>
@@ -266,6 +310,10 @@
    </property>
   </action>
   <action name="actionCopy">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231049.png</normaloff>image/屏幕截图 2026-10-26 231049.png</iconset>
+   </property>
    <property name="text">
     <string>复制&amp;C</string>
    </property>
@@ -286,6 +334,10 @@
    <property name="checked">
     <bool>true</bool>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231518.png</normaloff>image/屏幕截图 2026-10-26 231518.png</iconset>
+   </property>
    <property name="text">
     <string>显示工具栏&amp;T</string>
    </property>
@@ -297,6 +349,10 @@
    </property>
   </action>
   <action name="actionPaste">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231053.png</normaloff>image/屏幕截图 2026-10-26 231053.png</iconset>
+   </property>
    <property name="text">
     <string>粘贴&amp;V</string>
    </property>
@@ -317,6 +373,10 @@
    <property name="checked">
     <bool>true</bool>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231518.png</normaloff>image/屏幕截图 2026-10-26 231518.png</iconset>
+   </property>
    <property name="text">
     <string>显示状态栏&amp;S</string>
    </property>
@@ -328,6 +388,10 @@
    </property>
   </action>
   <action name="actionSelectAll">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231707.png</normaloff>image/屏幕截图 2026-10-26 231707.png</iconset>
+   </property>
    <property name="text">
     <string>全选&amp;A</string>
    </property>
@@ -359,6 +423,10 @@
    </property>
   </action>
   <action name="actionFont">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/font-size-2.png</normaloff>image/font-size-2.png</iconset>
+   </property>
    <property name="text">
     <string>字体&amp;F</string>
    </property>
@@ -370,6 +438,10 @@
    </property>
   </action>
   <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231115.png</normaloff>image/屏幕截图 2026-10-26 231115.png</iconset>
+   </property>
    <property name="text">
     <string>关于&amp;A</string>
    </property>
@@ -381,6 +453,10 @@
    </property>
   </action>
   <action name="actionFontBackgroundColor">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231112.png</normaloff>image/屏幕截图 2026-10-26 231112.png</iconset>
+   </property>
    <property name="text">
     <string>字体背景色&amp;B</string>
    </property>
@@ -389,6 +465,10 @@
    </property>
   </action>
   <action name="actionEditorBackgroundColor">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/屏幕截图 2026-10-26 231112.png</normaloff>image/屏幕截图 2026-10-26 231112.png</iconset>
+   </property>
    <property name="text">
     <string>编辑器背景色&amp;E</string>
    </property>

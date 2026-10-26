@@ -482,13 +482,11 @@ void MainWindow::setWordWrap(bool enabled)
 
 void MainWindow::showAbout()
 {
-    QMessageBox::about(
-        this,
-        tr("关于"),
-        tr("简易文本编辑器\n基于 Qt Widgets 开发。")
-        );
+    QMessageBox::about(this, "关于",
+                       "开发者：李伟煌\n"
+                       "学号：2024414290417\n"
+                       "email：2241859470");
 }
-
 void MainWindow::updateStatusBar()
 {
     QTextCursor cursor = ui->plainTextEdit->textCursor();
