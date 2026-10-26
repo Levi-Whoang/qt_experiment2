@@ -52,10 +52,10 @@ RM = D:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QT\project\temp1026
+CMAKE_SOURCE_DIR = D:\qtwork\experiment2\experiment2\temp1026
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/temp1026.dir/depend.make
@@ -71,54 +71,54 @@ include CMakeFiles/temp1026.dir/flags.make
 temp1026_autogen/timestamp: D:/QT/6.12.0/mingw_64/bin/moc.exe
 temp1026_autogen/timestamp: D:/QT/6.12.0/mingw_64/bin/uic.exe
 temp1026_autogen/timestamp: CMakeFiles/temp1026.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target temp1026"
-	D:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/AutogenInfo.json Debug
-	D:\QT\Tools\CMake_64\bin\cmake.exe -E touch D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target temp1026"
+	D:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/AutogenInfo.json Debug
+	D:\QT\Tools\CMake_64\bin\cmake.exe -E touch D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/timestamp
 
 CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj: CMakeFiles/temp1026.dir/flags.make
 CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj: CMakeFiles/temp1026.dir/includes_CXX.rsp
 CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj: temp1026_autogen/mocs_compilation.cpp
 CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj: CMakeFiles/temp1026.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.obj -c D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\temp1026_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.obj -c D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\temp1026_autogen\mocs_compilation.cpp
 
 CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.i"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\temp1026_autogen\mocs_compilation.cpp > CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.i
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\temp1026_autogen\mocs_compilation.cpp > CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/temp1026.dir/temp1026_autogen/mocs_compilation.cpp.s"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\temp1026_autogen\mocs_compilation.cpp -o CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.s
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\temp1026_autogen\mocs_compilation.cpp -o CMakeFiles\temp1026.dir\temp1026_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/temp1026.dir/main.cpp.obj: CMakeFiles/temp1026.dir/flags.make
 CMakeFiles/temp1026.dir/main.cpp.obj: CMakeFiles/temp1026.dir/includes_CXX.rsp
-CMakeFiles/temp1026.dir/main.cpp.obj: D:/QT/project/temp1026/main.cpp
+CMakeFiles/temp1026.dir/main.cpp.obj: D:/qtwork/experiment2/experiment2/temp1026/main.cpp
 CMakeFiles/temp1026.dir/main.cpp.obj: CMakeFiles/temp1026.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/temp1026.dir/main.cpp.obj"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/temp1026.dir/main.cpp.obj -MF CMakeFiles\temp1026.dir\main.cpp.obj.d -o CMakeFiles\temp1026.dir\main.cpp.obj -c D:\QT\project\temp1026\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/temp1026.dir/main.cpp.obj"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/temp1026.dir/main.cpp.obj -MF CMakeFiles\temp1026.dir\main.cpp.obj.d -o CMakeFiles\temp1026.dir\main.cpp.obj -c D:\qtwork\experiment2\experiment2\temp1026\main.cpp
 
 CMakeFiles/temp1026.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/temp1026.dir/main.cpp.i"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QT\project\temp1026\main.cpp > CMakeFiles\temp1026.dir\main.cpp.i
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\qtwork\experiment2\experiment2\temp1026\main.cpp > CMakeFiles\temp1026.dir\main.cpp.i
 
 CMakeFiles/temp1026.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/temp1026.dir/main.cpp.s"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QT\project\temp1026\main.cpp -o CMakeFiles\temp1026.dir\main.cpp.s
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\qtwork\experiment2\experiment2\temp1026\main.cpp -o CMakeFiles\temp1026.dir\main.cpp.s
 
 CMakeFiles/temp1026.dir/mainwindow.cpp.obj: CMakeFiles/temp1026.dir/flags.make
 CMakeFiles/temp1026.dir/mainwindow.cpp.obj: CMakeFiles/temp1026.dir/includes_CXX.rsp
-CMakeFiles/temp1026.dir/mainwindow.cpp.obj: D:/QT/project/temp1026/mainwindow.cpp
+CMakeFiles/temp1026.dir/mainwindow.cpp.obj: D:/qtwork/experiment2/experiment2/temp1026/mainwindow.cpp
 CMakeFiles/temp1026.dir/mainwindow.cpp.obj: CMakeFiles/temp1026.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/temp1026.dir/mainwindow.cpp.obj"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/temp1026.dir/mainwindow.cpp.obj -MF CMakeFiles\temp1026.dir\mainwindow.cpp.obj.d -o CMakeFiles\temp1026.dir\mainwindow.cpp.obj -c D:\QT\project\temp1026\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/temp1026.dir/mainwindow.cpp.obj"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/temp1026.dir/mainwindow.cpp.obj -MF CMakeFiles\temp1026.dir\mainwindow.cpp.obj.d -o CMakeFiles\temp1026.dir\mainwindow.cpp.obj -c D:\qtwork\experiment2\experiment2\temp1026\mainwindow.cpp
 
 CMakeFiles/temp1026.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/temp1026.dir/mainwindow.cpp.i"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QT\project\temp1026\mainwindow.cpp > CMakeFiles\temp1026.dir\mainwindow.cpp.i
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\qtwork\experiment2\experiment2\temp1026\mainwindow.cpp > CMakeFiles\temp1026.dir\mainwindow.cpp.i
 
 CMakeFiles/temp1026.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/temp1026.dir/mainwindow.cpp.s"
-	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\QT\project\temp1026\mainwindow.cpp -o CMakeFiles\temp1026.dir\mainwindow.cpp.s
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\qtwork\experiment2\experiment2\temp1026\mainwindow.cpp -o CMakeFiles\temp1026.dir\mainwindow.cpp.s
 
 # Object files for target temp1026
 temp1026_OBJECTS = \
@@ -141,7 +141,7 @@ temp1026.exe: temp1026.exe.manifest
 temp1026.exe: CMakeFiles/temp1026.dir/linkLibs.rsp
 temp1026.exe: CMakeFiles/temp1026.dir/objects1.rsp
 temp1026.exe: CMakeFiles/temp1026.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable temp1026.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable temp1026.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\temp1026.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/temp1026.dir/clean:
 .PHONY : CMakeFiles/temp1026.dir/clean
 
 CMakeFiles/temp1026.dir/depend: temp1026_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\QT\project\temp1026 D:\QT\project\temp1026 D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles\temp1026.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\qtwork\experiment2\experiment2\temp1026 D:\qtwork\experiment2\experiment2\temp1026 D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles\temp1026.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/temp1026.dir/depend
 

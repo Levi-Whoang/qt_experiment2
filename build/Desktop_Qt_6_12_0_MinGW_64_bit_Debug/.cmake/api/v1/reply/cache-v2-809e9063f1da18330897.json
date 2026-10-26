@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug"
+			"value" : "d:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/QT/project/temp1026"
+			"value" : "D:/qtwork/experiment2/experiment2/temp1026"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1051,7 +1051,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
+			"value" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1551,7 +1551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper"
+			"value" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -7399,7 +7399,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug"
+			"value" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug"
 		},
 		{
 			"name" : "temp1026_IS_TOP_LEVEL",
@@ -7423,7 +7423,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/QT/project/temp1026"
+			"value" : "D:/qtwork/experiment2/experiment2/temp1026"
 		}
 	],
 	"kind" : "cache",

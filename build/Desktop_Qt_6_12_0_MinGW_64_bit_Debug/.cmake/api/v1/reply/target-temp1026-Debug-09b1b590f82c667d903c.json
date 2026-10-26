@@ -84,13 +84,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 62,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -302,7 +302,7 @@
 			{
 				"command" : 17,
 				"file" : 1,
-				"line" : 69,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
@@ -395,7 +395,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/include"
+					"path" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/include"
 				},
 				{
 					"backtrace" : 13,
@@ -568,7 +568,8 @@
 			"sourceIndexes" : 
 			[
 				3,
-				6
+				5,
+				7
 			]
 		},
 		{
@@ -582,15 +583,15 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				5,
-				7
+				6,
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8
+				9
 			]
 		}
 	],
@@ -624,6 +625,11 @@
 			"backtrace" : 4,
 			"path" : "mainwindow.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "linenumberarea.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 49,

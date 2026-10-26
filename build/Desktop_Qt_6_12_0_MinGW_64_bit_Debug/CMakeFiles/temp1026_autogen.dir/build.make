@@ -52,10 +52,10 @@ RM = D:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QT\project\temp1026
+CMAKE_SOURCE_DIR = D:\qtwork\experiment2\experiment2\temp1026
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug
 
 # Utility rule file for temp1026_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/temp1026_autogen: temp1026_autogen/timestamp
 temp1026_autogen/timestamp: D:/QT/6.12.0/mingw_64/bin/moc.exe
 temp1026_autogen/timestamp: D:/QT/6.12.0/mingw_64/bin/uic.exe
 temp1026_autogen/timestamp: CMakeFiles/temp1026_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target temp1026"
-	D:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/AutogenInfo.json Debug
-	D:\QT\Tools\CMake_64\bin\cmake.exe -E touch D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target temp1026"
+	D:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/AutogenInfo.json Debug
+	D:\QT\Tools\CMake_64\bin\cmake.exe -E touch D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/timestamp
 
 temp1026_autogen: CMakeFiles/temp1026_autogen
 temp1026_autogen: temp1026_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/temp1026_autogen.dir/clean:
 .PHONY : CMakeFiles/temp1026_autogen.dir/clean
 
 CMakeFiles/temp1026_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\QT\project\temp1026 D:\QT\project\temp1026 D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles\temp1026_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\qtwork\experiment2\experiment2\temp1026 D:\qtwork\experiment2\experiment2\temp1026 D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles\temp1026_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/temp1026_autogen.dir/depend
 

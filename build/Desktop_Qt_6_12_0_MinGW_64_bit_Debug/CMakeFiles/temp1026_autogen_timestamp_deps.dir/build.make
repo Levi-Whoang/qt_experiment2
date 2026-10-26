@@ -52,10 +52,10 @@ RM = D:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QT\project\temp1026
+CMAKE_SOURCE_DIR = D:\qtwork\experiment2\experiment2\temp1026
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug
 
 # Utility rule file for temp1026_autogen_timestamp_deps.
 
@@ -77,6 +77,6 @@ CMakeFiles/temp1026_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/temp1026_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/temp1026_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\QT\project\temp1026 D:\QT\project\temp1026 D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\QT\project\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles\temp1026_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\qtwork\experiment2\experiment2\temp1026 D:\qtwork\experiment2\experiment2\temp1026 D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug D:\qtwork\experiment2\experiment2\temp1026\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles\temp1026_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/temp1026_autogen_timestamp_deps.dir/depend
 

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-f0be955d14c241f7eb24.json",
+					"jsonFile" : "directory-.-Debug-6c554b5d0c7ab079ae33.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "temp1026::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-temp1026-Debug-f8cf65fdddcc20d05ea1.json",
+					"jsonFile" : "target-temp1026-Debug-09b1b590f82c667d903c.json",
 					"name" : "temp1026",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
-		"source" : "D:/QT/project/temp1026"
+		"build" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
+		"source" : "D:/qtwork/experiment2/experiment2/temp1026"
 	},
 	"version" : 
 	{

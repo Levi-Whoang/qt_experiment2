@@ -1,20 +1,20 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen",
-	"CMAKE_BINARY_DIR" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/QT/project/temp1026",
+	"BUILD_DIR" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen",
+	"CMAKE_BINARY_DIR" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/qtwork/experiment2/experiment2/temp1026",
 	"CMAKE_EXECUTABLE" : "D:/QT/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/QT/project/temp1026/CMakeLists.txt",
-		"D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
-		"D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/package-manager.cmake",
+		"D:/qtwork/experiment2/experiment2/temp1026/CMakeLists.txt",
+		"D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
+		"D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/package-manager.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in",
-		"D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeMinGWFindMake.cmake",
-		"D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+		"D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake",
@@ -67,7 +67,7 @@
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -82,7 +82,7 @@
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in",
-		"D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+		"D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake",
@@ -99,7 +99,7 @@
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"D:/QT/6.12.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"D:/QT/6.12.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
@@ -497,22 +497,28 @@
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"D:/QT/6.12.0/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/QT/project/temp1026",
+	"CMAKE_SOURCE_DIR" : "D:/qtwork/experiment2/experiment2/temp1026",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/deps",
+	"DEP_FILE" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "temp1026_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"D:/QT/project/temp1026/mainwindow.h",
+			"D:/qtwork/experiment2/experiment2/temp1026/linenumberarea.h",
+			"MU",
+			"EWIEGA46WW/moc_linenumberarea.cpp",
+			null
+		],
+		[
+			"D:/qtwork/experiment2/experiment2/temp1026/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -569,21 +575,25 @@
 		"-c",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "D:/QT/6.12.0/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "D:/QT/6.12.0/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "D:/QT/project/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/qtwork/experiment2/experiment2/temp1026/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/temp1026_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/QT/project/temp1026/main.cpp", "MU", null ],
-		[ "D:/QT/project/temp1026/mainwindow.cpp", "MU", null ]
+		[ "D:/qtwork/experiment2/experiment2/temp1026/main.cpp", "MU", null ],
+		[
+			"D:/qtwork/experiment2/experiment2/temp1026/mainwindow.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
