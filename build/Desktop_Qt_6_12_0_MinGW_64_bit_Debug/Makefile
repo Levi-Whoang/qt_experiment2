@@ -271,6 +271,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026.dir\build.make CMakeFiles/temp1026.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+temp1026_autogen/EWIEGA46WW/qrc_resources.obj: temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : temp1026_autogen/EWIEGA46WW/qrc_resources.obj
+
+# target to build an object file
+temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026.dir\build.make CMakeFiles/temp1026.dir/temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+.PHONY : temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.obj
+
+temp1026_autogen/EWIEGA46WW/qrc_resources.i: temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : temp1026_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026.dir\build.make CMakeFiles/temp1026.dir/temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+temp1026_autogen/EWIEGA46WW/qrc_resources.s: temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : temp1026_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp1026.dir\build.make CMakeFiles/temp1026.dir/temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 temp1026_autogen/mocs_compilation.obj: temp1026_autogen/mocs_compilation.cpp.obj
 .PHONY : temp1026_autogen/mocs_compilation.obj
 
@@ -319,6 +343,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... temp1026_autogen/EWIEGA46WW/qrc_resources.obj
+	@echo ... temp1026_autogen/EWIEGA46WW/qrc_resources.i
+	@echo ... temp1026_autogen/EWIEGA46WW/qrc_resources.s
 	@echo ... temp1026_autogen/mocs_compilation.obj
 	@echo ... temp1026_autogen/mocs_compilation.i
 	@echo ... temp1026_autogen/mocs_compilation.s

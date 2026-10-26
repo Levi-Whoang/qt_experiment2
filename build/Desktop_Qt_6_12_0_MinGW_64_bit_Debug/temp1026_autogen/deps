@@ -715,5 +715,6 @@ temp1026_autogen/timestamp: \
 	D:/qtwork/experiment2/experiment2/temp1026/main.cpp \
 	D:/qtwork/experiment2/experiment2/temp1026/mainwindow.cpp \
 	D:/qtwork/experiment2/experiment2/temp1026/mainwindow.h \
+	D:/qtwork/experiment2/experiment2/temp1026/resources.qrc \
 	D:/qtwork/experiment2/experiment2/temp1026/mainwindow.ui \
 	D:/QT/Tools/CMake_64/bin/cmake.exe

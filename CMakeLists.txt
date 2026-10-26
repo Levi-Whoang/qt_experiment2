@@ -19,6 +19,8 @@ set(PROJECT_SOURCES
     mainwindow.ui
     codeeditor.cpp
     codeeditor.h
+    resources.qrc
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

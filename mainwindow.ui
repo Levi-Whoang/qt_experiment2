@@ -99,8 +99,8 @@
   </widget>
   <action name="actionNew">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 230853.png</normaloff>image/屏幕截图 2026-10-26 230853.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/New.png</normaloff>:/image/image/New.png</iconset>
    </property>
    <property name="text">
     <string>新建&amp;N</string>
@@ -117,8 +117,8 @@
   </action>
   <action name="actionOpen">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231017.png</normaloff>image/屏幕截图 2026-10-26 231017.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Add.png</normaloff>:/image/image/Add.png</iconset>
    </property>
    <property name="text">
     <string>打开&amp;O</string>
@@ -135,8 +135,8 @@
   </action>
   <action name="actionFontColor">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231112.png</normaloff>image/屏幕截图 2026-10-26 231112.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Paint.png</normaloff>:/image/image/Paint.png</iconset>
    </property>
    <property name="text">
     <string>字体颜色&amp;C</string>
@@ -150,8 +150,8 @@
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231024.png</normaloff>image/屏幕截图 2026-10-26 231024.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Save.png</normaloff>:/image/image/Save.png</iconset>
    </property>
    <property name="text">
     <string>保存&amp;S</string>
@@ -168,8 +168,8 @@
   </action>
   <action name="actionSaveAs">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231030.png</normaloff>image/屏幕截图 2026-10-26 231030.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/SaveAs.png</normaloff>:/image/image/SaveAs.png</iconset>
    </property>
    <property name="text">
     <string>另存为&amp;A</string>
@@ -203,8 +203,8 @@
   </action>
   <action name="actionQuit">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231938.png</normaloff>image/屏幕截图 2026-10-26 231938.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/quit.png</normaloff>:/image/image/quit.png</iconset>
    </property>
    <property name="text">
     <string>退出&amp;X</string>
@@ -221,8 +221,8 @@
   </action>
   <action name="actionFind">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231058.png</normaloff>image/屏幕截图 2026-10-26 231058.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Search.png</normaloff>:/image/image/Search.png</iconset>
    </property>
    <property name="text">
     <string>查找&amp;F</string>
@@ -239,8 +239,8 @@
   </action>
   <action name="actionUndo">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231035.png</normaloff>image/屏幕截图 2026-10-26 231035.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Return.png</normaloff>:/image/image/Return.png</iconset>
    </property>
    <property name="text">
     <string>撤销&amp;Z</string>
@@ -257,8 +257,8 @@
   </action>
   <action name="actionRedo">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231039.png</normaloff>image/屏幕截图 2026-10-26 231039.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Redo.png</normaloff>:/image/image/Redo.png</iconset>
    </property>
    <property name="text">
     <string>恢复&amp;Y</string>
@@ -275,8 +275,8 @@
   </action>
   <action name="actionReplace">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231102.png</normaloff>image/屏幕截图 2026-10-26 231102.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Replace.png</normaloff>:/image/image/Replace.png</iconset>
    </property>
    <property name="text">
     <string>替换&amp;R</string>
@@ -293,8 +293,8 @@
   </action>
   <action name="actionCut">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231044.png</normaloff>image/屏幕截图 2026-10-26 231044.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Cut.png</normaloff>:/image/image/Cut.png</iconset>
    </property>
    <property name="text">
     <string>剪切&amp;T</string>
@@ -311,8 +311,8 @@
   </action>
   <action name="actionCopy">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231049.png</normaloff>image/屏幕截图 2026-10-26 231049.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Copy.png</normaloff>:/image/image/Copy.png</iconset>
    </property>
    <property name="text">
     <string>复制&amp;C</string>
@@ -335,8 +335,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231518.png</normaloff>image/屏幕截图 2026-10-26 231518.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Window.png</normaloff>:/image/image/Window.png</iconset>
    </property>
    <property name="text">
     <string>显示工具栏&amp;T</string>
@@ -350,8 +350,8 @@
   </action>
   <action name="actionPaste">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231053.png</normaloff>image/屏幕截图 2026-10-26 231053.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Paste.png</normaloff>:/image/image/Paste.png</iconset>
    </property>
    <property name="text">
     <string>粘贴&amp;V</string>
@@ -374,8 +374,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231518.png</normaloff>image/屏幕截图 2026-10-26 231518.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Window.png</normaloff>:/image/image/Window.png</iconset>
    </property>
    <property name="text">
     <string>显示状态栏&amp;S</string>
@@ -389,8 +389,8 @@
   </action>
   <action name="actionSelectAll">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231707.png</normaloff>image/屏幕截图 2026-10-26 231707.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/SelectAll.png</normaloff>:/image/image/SelectAll.png</iconset>
    </property>
    <property name="text">
     <string>全选&amp;A</string>
@@ -424,8 +424,8 @@
   </action>
   <action name="actionFont">
    <property name="icon">
-    <iconset>
-     <normaloff>image/font-size-2.png</normaloff>image/font-size-2.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Word.png</normaloff>:/image/image/Word.png</iconset>
    </property>
    <property name="text">
     <string>字体&amp;F</string>
@@ -439,8 +439,8 @@
   </action>
   <action name="actionAbout">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231115.png</normaloff>image/屏幕截图 2026-10-26 231115.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/About.png</normaloff>:/image/image/About.png</iconset>
    </property>
    <property name="text">
     <string>关于&amp;A</string>
@@ -454,8 +454,8 @@
   </action>
   <action name="actionFontBackgroundColor">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231112.png</normaloff>image/屏幕截图 2026-10-26 231112.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Paint.png</normaloff>:/image/image/Paint.png</iconset>
    </property>
    <property name="text">
     <string>字体背景色&amp;B</string>
@@ -466,8 +466,8 @@
   </action>
   <action name="actionEditorBackgroundColor">
    <property name="icon">
-    <iconset>
-     <normaloff>image/屏幕截图 2026-10-26 231112.png</normaloff>image/屏幕截图 2026-10-26 231112.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/image/image/Paint.png</normaloff>:/image/image/Paint.png</iconset>
    </property>
    <property name="text">
     <string>编辑器背景色&amp;E</string>
@@ -484,6 +484,8 @@
    <header>codeeditor.h</header>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

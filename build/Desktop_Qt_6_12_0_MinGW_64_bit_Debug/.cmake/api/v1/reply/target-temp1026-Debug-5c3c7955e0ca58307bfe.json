@@ -61,7 +61,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 25,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -85,13 +85,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 68,
+				"line" : 70,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 47,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
@@ -303,13 +303,13 @@
 			{
 				"command" : 13,
 				"file" : 1,
-				"line" : 49,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
 				"command" : 18,
 				"file" : 1,
-				"line" : 75,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
@@ -449,7 +449,8 @@
 				0,
 				1,
 				2,
-				5
+				5,
+				11
 			]
 		}
 	],
@@ -573,7 +574,8 @@
 				0,
 				1,
 				2,
-				5
+				5,
+				11
 			]
 		},
 		{
@@ -582,7 +584,7 @@
 			[
 				3,
 				6,
-				8
+				9
 			]
 		},
 		{
@@ -593,18 +595,26 @@
 			]
 		},
 		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				7,
-				9
+				8,
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				12,
+				13
 			]
 		}
 	],
@@ -651,9 +661,14 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 4,
+			"path" : "resources.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
 			"backtrace" : 50,
 			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026.exe.manifest",
-			"sourceGroupIndex" : 3
+			"sourceGroupIndex" : 4
 		},
 		{
 			"backtrace" : 0,
@@ -665,13 +680,26 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/timestamp",
-			"sourceGroupIndex" : 3
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/EWIEGA46WW/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/timestamp.rule",
-			"sourceGroupIndex" : 4
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/temp1026_autogen/EWIEGA46WW/qrc_resources.cpp.rule",
+			"sourceGroupIndex" : 5
 		}
 	],
 	"type" : "EXECUTABLE"

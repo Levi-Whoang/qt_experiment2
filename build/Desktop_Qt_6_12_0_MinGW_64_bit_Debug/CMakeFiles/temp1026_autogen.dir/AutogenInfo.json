@@ -426,7 +426,8 @@
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"D:/QT/6.12.0/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
-		"D:/QT/6.12.0/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
+		"D:/QT/6.12.0/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in",
+		"D:/qtwork/experiment2/experiment2/temp1026/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/qtwork/experiment2/experiment2/temp1026",
 	"CROSS_CONFIG" : false,
