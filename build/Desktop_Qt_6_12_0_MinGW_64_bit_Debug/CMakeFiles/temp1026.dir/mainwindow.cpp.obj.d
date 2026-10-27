@@ -529,4 +529,6 @@ CMakeFiles/temp1026.dir/mainwindow.cpp.obj: \
  D:/QT/6.12.0/mingw_64/include/QtWidgets/QPushButton \
  D:/QT/6.12.0/mingw_64/include/QtWidgets/qpushbutton.h \
  D:/QT/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- D:/QT/6.12.0/mingw_64/include/QtWidgets/QGridLayout
+ D:/QT/6.12.0/mingw_64/include/QtWidgets/QGridLayout \
+ D:/QT/6.12.0/mingw_64/include/QtGui/QClipboard \
+ D:/QT/6.12.0/mingw_64/include/QtGui/qclipboard.h

@@ -29,7 +29,7 @@
 #include <QGridLayout>
 #include <QMessageBox>
 #include <QTextCursor>
-
+#include <QClipboard>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
@@ -89,6 +89,32 @@ void MainWindow::setupConnections()
             ui->plainTextEdit, &QPlainTextEdit::copy);
     connect(ui->actionPaste, &QAction::triggered,
             ui->plainTextEdit, &QPlainTextEdit::paste);
+
+
+    // 根据是否选中文本，控制剪切和复制按钮
+    connect(ui->plainTextEdit, &QPlainTextEdit::copyAvailable,
+            ui->actionCut, &QAction::setEnabled);
+
+    connect(ui->plainTextEdit, &QPlainTextEdit::copyAvailable,
+            ui->actionCopy, &QAction::setEnabled);
+
+    // 根据剪贴板内容，控制粘贴按钮
+    connect(QApplication::clipboard(), &QClipboard::dataChanged,
+            this, [this]() {
+                ui->actionPaste->setEnabled(
+                    !QApplication::clipboard()->text().isEmpty()
+                    );
+            });
+
+    // 初始化按钮状态
+    ui->actionCut->setEnabled(false);
+    ui->actionCopy->setEnabled(false);
+    ui->actionPaste->setEnabled(
+        !QApplication::clipboard()->text().isEmpty()
+        );
+
+
+
     connect(ui->actionSelectAll, &QAction::triggered,
             ui->plainTextEdit, &QPlainTextEdit::selectAll);
 
